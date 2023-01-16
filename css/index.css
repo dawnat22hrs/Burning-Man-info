@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap");
+@import 'normalize.css';
+.pretitle {
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 44px;
+  letter-spacing: 0.1em;
+}
+
+.first-screen {
+  position: relative;
+  width: 1600px;
+  height: 900px;
+  background-image: url("media/header-bg.jpg");
+  font-family: "Anton";
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.first-screen .container-header {
+  width: 1170px;
+  height: 781px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.first-screen .header {
+  display: flex;
+  align-items: center;
+}
+.first-screen .header .logo {
+  width: 31px;
+  height: 48px;
+  margin-right: 69px;
+}
+.first-screen .header .nav {
+  width: 305px;
+}
+.first-screen .header .nav .nav__table {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.first-screen .header .nav .nav__table .nav__link {
+  text-decoration: none;
+  color: #fff;
+}
+.first-screen .header .tel {
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}
+.first-screen .header .tel .tel__link {
+  text-decoration: none;
+  color: #fff;
+}
+.first-screen .offer .offer-container {
+  width: 511px;
+  height: 257px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 321px;
+}
+.first-screen .offer .offer-container .title {
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 151px;
+  text-transform: uppercase;
+}
+.first-screen .offer .offer-container .btn {
+  width: 238px;
+  height: 57px;
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.about {
+  position: relative;
+  width: 1600px;
+  height: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about .container-about {
+  width: 1170px;
+  height: 883px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.about .container-about .pretitle-block {
+  margin: 64.5px 0 58px 0;
+}
+.about .container-about .pretitle_size-color {
+  font-size: 50px;
+  line-height: 75px;
+  color: #000;
+}
+.about .container-about .text-block {
+  display: flex;
+  justify-content: space-between;
+}
+.about .container-about .text-block .subtitle {
+  font-family: "Anton";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.about .container-about .text-block .text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  color: #000000;
+}
+.about .container-about .text-block .text__block {
+  width: 564px;
+  margin-top: 19px;
+}
+.about .container-about .photobar-grid {
+  margin-top: 67px;
+  display: grid;
+  grid-template-columns: 270px 270px 570px;
+  grid-column-gap: 29px;
+}
+
+.footer {
+  position: relative;
+  height: 176px;
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .container-footer {
+  width: 1170px;
+  height: 79px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.footer .container-footer .text__footer {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+}
+.footer .container-footer .footer-text {
+  display: grid;
+  grid-template-columns: 244px 244px;
+  grid-column-gap: 55px;
+}/*# sourceMappingURL=index.css.map */
